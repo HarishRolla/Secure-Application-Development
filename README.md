@@ -1,4 +1,4 @@
-# Project title: Mini Facebook Web Application
+# Mini Facebook Web Application
 
 <a href="https://github.com/HarishRolla/Secure-Application-Development">Link to repository</a>
 
