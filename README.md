@@ -138,7 +138,7 @@ By implementing these security measures, We strive to create a safe and trustwor
 
 All users will be able to access this page and can login to their accounts using username and password. First time users will also be able to create a new account by clicking on Sign up below.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/loginpage.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/loginpage.png" alt="Alt Text" style="width: 600px;">
 
 ### Sign Up:
 
