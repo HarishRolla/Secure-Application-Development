@@ -2,24 +2,6 @@
 
 <a href="https://github.com/HarishRolla/Secure-Application-Development">Link to repository</a>
 
-<b>Team members:</b>
-
-1. Shravanth Reddy Reddy
-
-2. Harish Pavan Rolla
-
-<b>ID#:</b>
-
-1. reddys14
-
-2. rollah1
-
-<b>Email:</b>
-
-1. reddys14@udayton.edu
-
-2. rollah1@udayton.edu
-
 
 ## 1. Introduction
 
