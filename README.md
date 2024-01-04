@@ -1,12 +1,6 @@
 # Project title: Mini Facebook Web Application
 
-<a href="https://bitbucket.org/secad-s23-team12/secad-s23-team12-project/src/master/">Link to repository</a>
-
-<b>Course Number:</b> CPS 475/575
-
-<b>Course Name:</b> Secure Application Development
-
-<b>Instructor:</b> Dr. Phu Phung
+<a href="https://github.com/HarishRolla/Secure-Application-Development">Link to repository</a>
 
 <b>Team members:</b>
 
@@ -54,7 +48,7 @@ By setting up these relationships and using primary and foreign keys, we can ens
 <br> </br>
 
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/erdiagram.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/erdiagram.png" alt="Alt Text" style="width: 600px;">
 
 
 ### Web Interface
@@ -144,92 +138,92 @@ All users will be able to access this page and can login to their accounts using
 
 All users will be able to access this page. Here users will be able to enter their details and click on sign up to create a new account in the MiniFacebook application.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/registerpage.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/signup.png" alt="Alt Text" style="width: 600px;">
 
 ### Add new user:
 
 This page will be displayed once the sign up has been successful.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/registrationsuccessful.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/adduser.png" alt="Alt Text" style="width: 600px;">
 
 ### Home Page:
 
 Once the user enters correct credentials, user will be redirected to the home page where a welcome message will be shown. This welcome page will be same for both superuser and regular user, however the only notable difference is that of the addition of a "See all users" button for a superuser. From this page, the user will be able to change the password or logout from the account.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/regularuserhomescreen.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/homepage.png" alt="Alt Text" style="width: 600px;">
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/adminhomescreen.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/homepage2.png" alt="Alt Text" style="width: 600px;">
 
 ### User list:
 
 This page will be only visible to the superuser. Here the superuser will be able to see all the registered users and the superuser will be able to enable/disable their account.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/userlistpage.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/userlist.png" alt="Alt Text" style="width: 600px;">
 
 ### Change password Form:
 
 This page is only accessible to the authorized users. Here user will be able to change their password. They have to enter only the new password and username will be autofilled.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/changepwd.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/changepassword.png" alt="Alt Text" style="width: 600px;">
 
 ### Change password:
 
 This page will be displayed after the password is changed.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/changepwdsuccessful.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/passwordchanged.png" alt="Alt Text" style="width: 600px;">
 
 ### Logout
 
 This page will be displayed once the user clicks on logout in the Home page.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/logoutpage.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/logout.png" alt="Alt Text" style="width: 600px;">
 
 ### Comments
 
 This page will display an individual post and it will have comments put out by users. Here edit post or comment and delete post or comment will only be displayed to the author of the post or comment. All the other users will not see this option.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/postpage.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/comments.png" alt="Alt Text" style="width: 600px;">
 
 ### Edit post page
 
 This page will be displayed to the user who clicks on the editpage button and should be an author of the post. Here users will be able to edit their posts. Edit comments page will also have same UI.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/editpost.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/editpost.png" alt="Alt Text" style="width: 600px;">
 
 ### Superuser can disable and enable account
 
 The superuser will be able to enable or disable the registered accounts. Once disable the user will not be able to login, until the superuser enables the account again.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/accdisabled.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/superuser.png" alt="Alt Text" style="width: 600px;">
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/accenabled.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/disableuser.png" alt="Alt Text" style="width: 600px;">
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/enabledacclogin.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/harishwelcome.png" alt="Alt Text" style="width: 600px;">
 
 
 ### A regular logged-in user can delete their own posts but cannot delete posts of others
 
 Only the author of the post will be given an option to delete the post and for the posts of others, this button will not be displayed.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/deleteoption.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/postscanotbedeleted.png" alt="Alt Text" style="width: 600px;">
 
 ### CSRF Attack to delete a post should be detected and prevented
 
 CSRF attack to delete a post will be detected and an alert will be displayed to the user stating the same. The user will be logged out of the account immediately.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/csrfdelete.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/csrf.png" alt="Alt Text" style="width: 600px;">
 
 ### A regular logged-in user cannot access the link for superusers
 
 A regular logged-in user if tried to access the link specific users, an alert will be displayed stating that the logged in user is not a superuser.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/regularusersuperuseraccess.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/userescannotusesuperlink.png" alt="Alt Text" style="width: 600px;">
 
 ### A logged-in user can have real-time chat with other users
 
 A logged-in user will be able to chat directly with other logged in users using the chat server.
 
-<img src="https://shravanthreddy.github.io/DemoScreenshots/realtimechat.png" alt="Alt Text" style="width: 600px;">
+<img src="https://github.com/HarishRolla/Secure-Application-Development/blob/main/DemoScreenshots/realtimechat.png" alt="Alt Text" style="width: 600px;">
 
 ## 5. Appendix
 
