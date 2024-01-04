@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<script src="/socket.io/socket.io.js"></script>
+<script>
+function startTime() {
+    document.getElementById('clock').innerHTML = new Date();
+    setTimeout(startTime, 500);
+}
+if (window.WebSocket) {
+ console.log("HTML5 WebSocket is supported");
+} else {
+  alert("HTML5 WebSocket is not supported");
+}
+var myWebSocket = io();
+myWebSocket.onopen = function() { 
+	console.log('WebSocket opened'); 
+}
+myWebSocket.on("message", function(msg) {
+    console.log('Received from server: '+ msg);
+    document.getElementById("receivedmessage").innerHTML += msg + "<br>";
+});
+myWebSocket.onclose = function() { 
+	console.log('WebSocket closed');
+}
+
+function doSend(msg){
+    if (myWebSocket) {
+        myWebSocket.emit("message",msg);
+        console.log('Sent to server: ' +msg);
+    }
+}
+function entertoSend(e){
+  //alert("keycode =" + e.keyCode);
+  if(e.keyCode==13){//enter key
+    doSend(document.getElementById("message").value);
+    document.getElementById("message").value = "";
+  }
+}
+</script>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #1e3c72 0%, #2a5298 100%);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    margin-left: 0.5rem;
+  }
+
+  h1, h2 {
+    color: #2a5298;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: black;
+  }
+
+  .inputcontainer {
+    display: flex;
+    align-content: flex-start;
+    margin-top: 0.5rem;
+  }
+
+  .container {
+    width: 80%;
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+</style>
+<body onload="startTime()">
+    <div class="container">
+        <h1>Welcome to the chat system</h1>
+        <p>Current time: <p id="clock"></p>
+
+        <div class="inputcontainer">
+            <p>Type message and enter to send: </p>
+            <input type = "text" id="message" size = "30" onkeypress="entertoSend(event)" />
+        </div>
+        
+        <br>
+        <p>Message from server:</p>
+        <hr>
+        <br>
+        <p id = "receivedmessage"></p>
+    </div>
+
+</body>
+</html>
